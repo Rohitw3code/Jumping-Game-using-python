@@ -11,7 +11,7 @@ over_font = pygame.font.Font('freesansbold.ttf', 64)
 NJump = pygame.font.Font('freesansbold.ttf', 64)
 
 #--Player----------------------------------------
-playerImg=pygame.image.load("Run/4.png")
+playerImg=pygame.image.load("4.png")
 
 playerX=50
 playerY=300
@@ -170,7 +170,7 @@ while running:
    screen.fill((10,10,20 ))
    SetObjects(objX,objY)
    life(score,jps)
-   name=f"Run/{Pname[index]}.png"
+   name=f"{Pname[index]}.png"
    player(name)
 
    wood=pygame.image.load(f"{obst}.png")
